@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Fundas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Fundas Exclusivas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a nuestra tienda</h2>
+        <p>Descubre las mejores fundas para tu teléfono, con diseños únicos y materiales de alta calidad.</p>
+    </section>
+    
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="funda1.jpg" alt="Funda 1">
+            <h3>Funda Transparente</h3>
+            <p>$9.99</p>
+            <button onclick="agregarAlCarrito('Funda Transparente', 9.99)">Añadir al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="funda2.jpg" alt="Funda 2">
+            <h3>Funda de Silicona</h3>
+            <p>$12.99</p>
+            <button onclick="agregarAlCarrito('Funda de Silicona', 12.99)">Añadir al carrito</button>
+        </div>
+    </section>
+    
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes dudas? Contáctanos en <strong>soporte@fundasexclusivas.com</strong></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Fundas Exclusivas - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
