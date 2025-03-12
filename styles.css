@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    position: fixed;
 }
 
 header {
@@ -56,9 +57,10 @@ section {
 }
 
 .producto img {
-    max-width: 100px;
+    max-width: 90px;
     display: block;
     margin: 0 auto 10px;
+
 }
 
 button {
